@@ -1,0 +1,50 @@
+/* 全局样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header, footer {
+    a { color: #ffffff; } 
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.gallery {
+    margin: 2em 5%;
+    background-color: white;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.gallery h2 {
+    color: #333;
+}
+
+/* 添加响应式设计 */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
