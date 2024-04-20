@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My HTML Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h2 onclick="togglePoem()">In My Dreams</h2>
+<ul id="poem">
+  <li><p>By Stevie Smith</p>
+    <hr>
+    <div id="imageContainer">
+      <img src="0dba819e360c53e533667e18a5323aa.png" alt="Descriptive text about the image" id="dynamicImage">
+    </div>
+    
+    <ol>
+      <li><em onclick="highlightVerse(this)">In my dreams I am always saying goodbye and riding away,<br>
+      Whither and why I know not nor do I care.<br>
+      And the parting is sweet and the parting over is sweeter,<br>
+      <strong>And sweetest of all is the night and the rushing air.</strong><br></li>
+      <li><em onclick="highlightVerse(this)">In my dreams they are always waving their hands and saying goodbye,<br>
+      And they give me the stirrup cup and I smile as I drink,<br>
+      I am glad the journey is set, I am glad I am going,<br>
+      I am glad, I am glad, that my friends don't know what I think.<br></li>
+      <a href="https://www.poetryfoundation.org/poems/46843/in-my-dreams">Read more about "In My Dreams"</a>
+    </ol>
+  </li>
+</ul>
+<script src="script.js"></script>
+</body>
+</html>
