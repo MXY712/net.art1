@@ -19,8 +19,8 @@ function togglePoem() {
 
   document.getElementById('dynamicImage').addEventListener('click', function() {
     var currentSrc = this.src;
-    console.log('img/0dba819e360c53e533667e18a5323aa.png', currentSrc); // 打印当前的图片源地址，帮助调试
+    console.log('img/0dba819e360c53e533667e18a5323aa.png', currentSrc); 
     this.src = currentSrc.includes('img/0dba819e360c53e533667e18a5323aa.png') ? 'img/38ebe002c22e11566338459d8df80fa.png' : 'img/0dba819e360c53e533667e18a5323aa.png';
-    console.log('img/38ebe002c22e11566338459d8df80fa.png', this.src); // 打印新的图片源地址，帮助调试
+    console.log('img/38ebe002c22e11566338459d8df80fa.png', this.src); 
   });
   
